@@ -12,7 +12,7 @@ router.get('/lava_verify=KP9DQwAat8XBfMiUm6GST2k0joNlgeHrc7xYRzIv3Wp1Cu4n', func
     response.render('main.ejs')
 })
 
-app.listen('https://smmquoto-production.up.railway.app', () => {
-    console.log('Server started on port 3000');
+app.listen(5002, () => {
+    console.log('Server started on port 5002');
 });
 
